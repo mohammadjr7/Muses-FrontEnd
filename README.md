@@ -9,9 +9,10 @@ As accessibility and familiarity is the highest priority in Muses project, the t
 Here is how the applicaiton Homepage will look like when a user tries to enter it:<br>
 ### Desktop | Mobile
 ![Muses sketch of Desktop homepage](docs/Sketch%20Home%20Page%20-%20Desktop.png)<br>
-Fig 1. Muses sketch of Desktop homepage.
+*Fig 1. Muses sketch of Desktop homepage.*
 ![Muses sketch of Mobile homepage](docs/Sketch%20Home%20Page%20-%20Mobile.png)<br>
-Fig 2. Muses sketch of Desktop homepage.
+*Fig 2. Muses sketch of Desktop homepage.*
+<br>
 <br>
 It's just two options to query your favorite song lyric!
 <br>
@@ -19,9 +20,12 @@ After the application finds your lyrics, you can also listen and follow along wi
 
 ### Desktop | Mobile
 ![Muses sketch of Desktop, queried song "Hate the way" by "G-eazy"](docs/Sketch%20Search%20Result%20Real%20-%20Desktop.png)<br>
-Fig 3. Muses sketch of Desktop, queried song "Hate the way" by "G-eazy".
+*Fig 3. Muses sketch of Desktop, queried song "Hate the way" by "G-eazy".*
+<br>
 ![Muses sketch of Mobile, queried song "Hate the way" by "G-eazy"](docs/Sketch%20Search%20Result%20Real%20-%20Mobile.png)<br>
-Fig 4. Muses sketch of Mobile, queried song "Hate the way" by "G-eazy".
+
+*Fig 4. Muses sketch of Mobile, queried song "Hate the way" by "G-eazy".*
+<br>
 
 ## Muses (Design Language) - Font
 ![Comfortaa, font-familty of Muses](docs/font.png)<br>
