@@ -39,7 +39,7 @@ Fonts are everithing in Muses, since all the music lyrics and interface is based
 Says, Johan Aakerlund; we thank him for his goodwill and skill.
 
 ## Muses (Design Language) - Textboxes
-Textboxes are a way that users send inputs to us and its the main interface between user thougts and feeling and our software. We design textboxes as simple and accessible as we could:<br>
+Textboxes are a way that users send inputs to us and it's the main interface between user thougts and feeling and our software. We design textboxes as simple and accessible as we could:<br>
 ![Textboxes of Muses](docs/textboxes.png)<br><br>
 
 *Fig 6. Muses textboxes.*
