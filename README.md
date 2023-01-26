@@ -11,7 +11,7 @@ Here is how the applicaiton Homepage will look like when a user tries to enter i
 ![Muses sketch of Desktop homepage](docs/Sketch%20Home%20Page%20-%20Desktop.png)<br>
 *Fig 1. Muses sketch of Desktop homepage.*
 ![Muses sketch of Mobile homepage](docs/Sketch%20Home%20Page%20-%20Mobile.png)<br>
-*Fig 2. Muses sketch of Desktop homepage.*
+*Fig 2. Muses sketch of Mobile homepage.*
 <br>
 <br>
 It's just two options to query your favorite song lyric!
@@ -28,8 +28,26 @@ After the application finds your lyrics, you can also listen and follow along wi
 <br>
 
 ## Muses (Design Language) - Font
-![Comfortaa, font-familty of Muses](docs/font.png)<br>
+![Comfortaa, font-familty of Muses](docs/font.png)<br><br>
+
+*Fig 5. Muses uses **"Comfortaa"** font-family.*
+<br>
+
 Fonts are everithing in Muses, since all the music lyrics and interface is based-on fonts and texts, the responsibility of choosing one is really difficult. We use **Comfortaa** font family designed by *Johan Aakerlund*.
 
-> "Comfortaa is a rounded geometric sans-serif type design intended for large sizes. It is absolutely free, both for personal and commercial use."
+> "Comfortaa is a rounded geometric sans-serif type design intended for large sizes. It is absolutely free, both for personal and commercial use."<br>
 Says, Johan Aakerlund; we thank him for his goodwill and skill.
+
+## Muses (Design Language) - Textboxes
+Textboxes are a way that users send inputs to us and its the main interface between user thougts and feeling and our software. We design textboxes as simple and accessible as we could:<br>
+![Textboxes of Muses](docs/textboxes.png)<br><br>
+
+*Fig 6. Muses textboxes.*
+<br>
+
+## Muses (Design Language) - Buttons
+As buttons contain actions that users want from our application, they should seem fast and react smooth:<br>
+![Buttons of Muses](docs/buttons.png)<br><br>
+
+*Fig 7. Muses buttons.*
+<br>
