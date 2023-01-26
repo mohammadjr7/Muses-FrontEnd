@@ -1,0 +1,98 @@
+.container-full {
+    width: 100%;
+    padding: 0 5%;
+}
+.container {
+    padding: 0 1em;
+    max-width: 1320px;
+    min-width: 100%;
+}
+.container-center-x {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    width: auto;
+}
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+.flex-center-x {
+    align-items: center;
+}
+.flex-center-y {
+    justify-content: center;
+}
+.flex-left-align {
+    justify-content: left;
+}
+
+.m-1 {
+    margin: 1em;
+}
+.m-2 {
+    margin: 2em;
+}
+.m-3 {
+    margin: 3em;
+}
+.m-4 {
+    margin: 4em;
+}
+.m-5 {
+    margin: 5em;
+}
+.m-10 {
+    margin: 10em;
+}
+.mx-1 {
+    margin: auto 1em;
+}
+.mx-2 {
+    margin: auto 2em;
+}
+.mx-3 {
+    margin: auto 3em;
+}
+.mx-4 {
+    margin: auto 4em;
+}
+.mx-5 {
+    margin: auto 5em;
+}
+.mx-10 {
+    margin: auto 10em;
+}
+.my-1 {
+    margin: 1em auto;
+}
+.my-2 {
+    margin: 2em auto;
+}
+.my-3 {
+    margin: 3em auto;
+}
+.my-4 {
+    margin: 4em auto;
+}
+.my-5 {
+    margin: 5em auto;
+}
+.my-10 {
+    margin: 10em auto;
+}
+.w-100 {
+    width: 100%;
+}
+.static-footer {
+    position: fixed;
+    background-color: var(--color-main-background-blur);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 3em;
+    bottom: 0;
+    padding: 0 1em;
+}

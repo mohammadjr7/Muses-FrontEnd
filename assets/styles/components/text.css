@@ -1,0 +1,32 @@
+/*
+* Muses
+* Mohammad Javad Rakhshani
+* Jan, 2023
+*
+* Textes
+*/
+
+.title-1 {
+    font-size: 2.5em;
+}
+.title-2 {
+    font-size: 2em;
+}
+.title-3 {
+    font-size: 1.75em;
+}
+.text {
+    font-size: 1em;
+}
+.bold {
+    font-weight: bolder;
+}
+.text-center {
+    text-align: center;
+}
+.error-message {
+    color: var(--color-error-color);
+}
+.copyright {
+    color: var(--color-text-copyright);
+}
