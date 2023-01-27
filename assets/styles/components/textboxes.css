@@ -6,7 +6,7 @@
 * Textboxes
 */
 
-
+/* Textbox */
 .textbox {
     border: none;
     outline: var(--color-textbox-color) solid 0;
@@ -23,6 +23,8 @@
     transition-duration: 80ms;
     transition-timing-function: var(--transition-timing-function);
 }
+
+/* Textbox Properties */
 .textbox:focus {
     outline: var(--color-textbox-color) solid 1px;
 }
@@ -33,6 +35,9 @@
     background-color: var(--color-textbox-disable-background);
     color: var(--color-textbox-disabled-color);
 }
+.textbox.error::placeholder {
+    color: var(--color-textbox-error-color);
+}
 .textbox.error {
     background-color: var(--color-textbox-error-background);
     color: var(--color-textbox-error-color);
@@ -41,7 +46,4 @@
 .textbox-error-message {
     width: var(--size-width-error-text);
     margin: 0 calc(var(--padding-textbox-right) * 1.4) 0 calc(var(--padding-textbox-left) * 1.4);
-}
-.textbox.error::placeholder {
-    color: var(--color-textbox-error-color);
 }
