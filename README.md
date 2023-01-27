@@ -8,7 +8,7 @@ Muses is a web application to query song lyrics and get them as fast and easy as
 
 <br>
 
-![Muses Desktop homepage](docs/results.png)<br>
+![Muses Desktop results page](docs/results.png)<br>
 
 *Fig 2. Muses current version results page.*
 # Muses (Design Language)
