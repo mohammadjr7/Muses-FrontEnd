@@ -241,6 +241,8 @@
 }
 
 /* Static config */
+#mobile-controls { display: none; }
+#desktop-controls { display: flex; }
 .static-footer {
     position: fixed;
     background-color: var(--color-main-background-blur);
@@ -284,6 +286,9 @@ nav > * {
         left: 2px;
         width: 90%!important;
     }
+        
+    #mobile-controls { display: flex; }
+    #desktop-controls { display: none; }
  }
 
 /* Medium devices (tablets, 768px and up) */
