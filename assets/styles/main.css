@@ -66,6 +66,49 @@ body {
     background-color: var(--color-main-background);
 }
 
+.dark {
+    --color-primary: #6739ca;
+    --color-primary-darker: #572db1;
+    --color-primary-darkest: #40237e;
+    --color-main-background: #29292c;
+    --color-main-background-blur: #20202286;
+    --color-scrollbar: #d0d3df;
+    --color-scrollbar-hover: #82848aa4;
+    --color-main-color: #262729;
+    --color-secondary-color: #5f6066;
+    --color-error-color: #c06363;
+    --color-textbox-background: #323235;
+    --color-textbox-disable-background: #4f4f55;
+    --color-textbox-error-background: #3d3434;
+    --color-textbox-color: #cbd3dd;
+    --color-textbox-disabled-color: #595b63;
+    --color-textbox-error-color: var(--color-error-color);
+    --color-textbox-placeholder-color: #7e7e7e;
+    --color-btn-background: #2d2d30;
+    --color-btn-outline: #38383b;
+    --color-btn-color: #cbd3dd;
+    --color-btn-primary-background: var(--color-primary);
+    --color-btn-primary-background-dark: var(--color-primary-darkest);
+    --color-btn-primary-outline: var(--color-primary-darker);
+    --color-btn-primary-color: #F1F4FF;
+    --color-text-copyright: #818590;
+    color: var(--color-main-color);
+    background-color: var(--color-main-background);
+}
+
+svg > #muses-logo-text {
+    fill: var(--color-main-color);
+}
+svg > #muses-logo-stroke {
+    stroke: var(--color-main-color);
+}
+#muses-logo-text.dark {
+    fill: var(--color-btn-primary-color);
+}
+#muses-logo-stroke.dark {
+    stroke: var(--color-btn-primary-color)!important;
+}
+
 .width-100 {
     position: relative;
     width: 100%;
