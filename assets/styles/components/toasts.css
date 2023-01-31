@@ -1,0 +1,86 @@
+.toast {
+    cursor: pointer;
+    border: none;
+    outline: var(--color-toast-color) solid 1px;
+    font-size: .6em;
+    background-color: var(--color-toast-background);
+    color: var(--color-toast-color);
+    border-radius: var(--raduis-toast-container-border);
+    margin: .7em;
+    transition-property: outline, color;
+    transition-duration: 80ms;
+    transition-timing-function: var(--transition-timing-function);
+}
+.toast > .btn {
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: var(--transition-timing-function);
+    background-color: var(--color-toast-background);
+    color: var(--color-toast-color);
+}
+.toast-green {
+    outline: var(--color-toast-green-color) solid 1px;
+    background-color: var(--color-toast-green-background);
+    color: var(--color-toast-green-color);
+}
+.toast-green > .btn {
+    background-color: var(--color-toast-green-background);
+    color: var(--color-toast-green-color);
+}
+.toast-red {
+    outline: var(--color-toast-red-color) solid 1px;
+    background-color: var(--color-toast-red-background);
+    color: var(--color-toast-red-color);
+}
+.toast-red > .btn {
+    background-color: var(--color-toast-red-background);
+    color: var(--color-toast-red-color);
+}
+.toast-primary {
+    outline: var(--color-toast-primary-color) solid 1px;
+    background-color: var(--color-toast-primary-background);
+    color: var(--color-toast-primary-color);
+}
+.toast-primary > .btn {
+    background-color: var(--color-toast-primary-background);
+    color: var(--color-toast-primary-color);
+}
+.toast > .btn:hover {
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: var(--transition-timing-function);
+    filter: brightness(0.9);
+}
+.toast > .btn:active {
+    filter: brightness(1.1);
+}
+.toast-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+.toast-container-show {
+    opacity: 1;
+    transition-duration: 250ms;
+    transition-property: all;
+    transition-timing-function: var(--transition-timing-function);
+    bottom: 0em;
+}
+.toast-container-hide {
+    opacity: 0;
+    transition-duration: 250ms;
+    transition-property: all;
+    transition-timing-function: var(--transition-timing-function);
+    bottom: -5em;
+}
+.toast > .text,span {
+    font-size: 2em;
+    font-weight: bold;
+    user-select: none;
+    margin: 1em 2em;
+    padding: 8px
+             0
+             1px
+             0;
+}

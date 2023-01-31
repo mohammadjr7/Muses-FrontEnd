@@ -36,6 +36,14 @@
     width: 1320px!important;
     padding: 0 5%;
 }
+.p-absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.shadow-box {
+    background-color: #0000007a;
+}
 
 /* Lyrics Boxes */
 .lyric-container {
@@ -78,10 +86,10 @@
 
 
 /* Flex Container Properties */
-.flex-center-x {
+.flex-center-y {
     align-items: center;
 }
-.flex-center-y {
+.flex-center-x {
     justify-content: center;
 }
 .flex-space-between-x {
@@ -105,6 +113,18 @@
 }
 .h-100 {
     height: 100%;
+}
+.h-25vh {
+    height: 25vh;
+}
+.h-20vh {
+    height: 20vh;
+}
+.h-15vh {
+    height: 15vh;
+}
+.h-10vh {
+    height: 10vh;
 }
 .hidden {
     display: none;

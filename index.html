@@ -37,7 +37,7 @@
     <meta name='apple-mobile-web-app-capable' content='yes'>
     <meta name='theme-color' content='#F1F4FF'>
 </head>
-<body id="body">
+<body id="body" onload="showToast('This site uses cookies!', 'primary')">
     <!-- Query Box -->
     <main>
         <div class="container-full flex flex-center-x flex-center-y">
@@ -70,7 +70,7 @@
                     
                         <!-- Search Button Section -->
                         <div class="buttons flexbox w-100">
-                            <div class="flex"><input onmousedown="searchSubmit()" onclick="checkSongInput();checkArtistInput()" type="button" value="Search" class="btn btn-primary w-100" id="btn-search"></div>
+                            <div class="flex"><input onmousedown="searchSubmit();showToast('Fields cannot be empty.', 'error')" onclick="checkSongInput();checkArtistInput();" type="button" value="Search" class="btn btn-primary w-100" id="btn-search"></div>
                         </div>
                 </form>
             </div>
@@ -79,7 +79,7 @@
 
     <!-- Footer -->
     <footer>
-        <div class="home-static-footer container-full flex flex-center-x flex-space-between-x">
+        <div class="home-static-footer container-full flex flex-center-y flex-space-between-x">
             <!-- Theme Button -->
             <button class="btn btn-circle btn-link btn-small btn-theme" id="btn-theme-change">
             <svg
@@ -140,8 +140,35 @@
     <!-- Spare Space -->
     <div class="empty m-5"></div>
 
+    <!-- Toast -->
+    <div class="toast-container container-full w-100 p-1 flex flex-center-x flex-center-y  toast-container-hide" id="toast-shadow-container">
+        <div class="container-sm" id="toast-container">                
+            <div class="flex flex-center-x flex-space-between-x toast" id="toast">
+            <span class="text" id="toast-message">Placeholder...</span>
+            <span class="btn btn-circle" id="btn-close-toast" onclick="closeToast()">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                >
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+                </svg>
+                
+            </span>
+        </div>
+        </div>
+    </div>
+
     <!-- Scripts -->
     <script src="assets/scripts/theme.js"></script>
     <script src="assets/scripts/input.js"></script>
+    <script src="assets/scripts/toast.js"></script>
 </body>
 </html>

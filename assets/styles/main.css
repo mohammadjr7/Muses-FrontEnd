@@ -9,6 +9,7 @@
 @import url("components/text.css");
 @import url("components/textboxes.css");
 @import url("components/buttons.css");
+@import url("components/toasts.css");
 
 /* Fonts */
 @import url("../fonts/font.css");
@@ -25,6 +26,14 @@
     --color-main-color: #262729;
     --color-secondary-color: #5f6066;
     --color-error-color: #7A2929;
+    --color-toast-color: #444649;
+    --color-toast-background: #DDE1ED;
+    --color-toast-green-color: #297A31;
+    --color-toast-green-background: #DCF2E1;
+    --color-toast-red-color: var(--color-error-color);
+    --color-toast-red-background: var(--color-textbox-error-background);
+    --color-toast-primary-color: #3B158B;
+    --color-toast-primary-background: #E2DDED;
     --color-textbox-background: #DDE1ED;
     --color-textbox-disable-background: #CBCFDA;
     --color-textbox-error-background: #F2DCDC;
@@ -43,11 +52,16 @@
     --size-width-error-text: 250px;
     --raduis-textbox-border: 999px;
     --raduis-lyric-container-border: 40px;
+    --raduis-toast-container-border: 40px;
     --raduis-btn-border: 999px;
     --padding-textbox-left: 36px;
     --padding-textbox-right: 36px;
     --padding-textbox-top: 19px;
     --padding-textbox-bottom: 14px;
+    --padding-toast-left: 0px;
+    --padding-toast-right: 0px;
+    --padding-toast-top: 19px;
+    --padding-toast-bottom: 14px;
     --font-family-main: 'Comfortaa';
     --transition--timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
