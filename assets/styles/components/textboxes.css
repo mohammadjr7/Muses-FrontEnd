@@ -44,6 +44,6 @@
     outline: var(--color-textbox-error-color) solid 1px;
 }
 .textbox-error-message {
-    width: var(--size-width-error-text);
-    margin: 0 calc(var(--padding-textbox-right) * 1.4) 0 calc(var(--padding-textbox-left) * 1.4);
+    width: auto;
+    margin: 0 calc(var(--padding-textbox-right)) 0 calc(var(--padding-textbox-left));
 }
