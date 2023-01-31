@@ -48,7 +48,7 @@ function showToast(message, type) {
         } else {
             closeToast();
         }
-    }, 400);
+    }, 25);
 }
 
 // Close toast method
@@ -58,7 +58,7 @@ function closeToast() {
         toastShadowContainer.classList.add("toast-container-hide");
         setTimeout(()=> {
             if (!toastShadowContainer.classList.contains("hidden")) {toastShadowContainer.classList.add("hidden")}
-        }, 1200);
+        }, 250);
     }
 }
 
