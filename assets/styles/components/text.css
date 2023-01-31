@@ -31,9 +31,13 @@
     font-size: 1em;
 }
 .text-lyric {
-    font-size: 1em;
+    width: 95%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    font-size: 1.1em;
     font-weight: normal;
-    line-height: 1.5em;
+    line-height: 1.7em;
 }
 
 /* Text Properties */

@@ -55,16 +55,16 @@
     border-radius: var(--raduis-lyric-container-border);
 }
 .lyric-text-container {
-    width: auto;
     position: relative;
-    left: -1px;
+    left: 5px;
     height: 100%;
     width: 100%;
     padding-bottom: 5em;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 .lyric-links {
-    width: calc(100% - 4.38em);
+    width: calc(100% - 3.96em);
     height: 8em;
     position: absolute;
     bottom: 0;
@@ -305,6 +305,14 @@ nav > * {
     #lyric-container {
         left: 2px;
         width: 90%!important;
+    }
+    
+    #lyric-container {
+        padding: 0 2em;
+    }
+    
+    .text-lyric {
+        padding: 0.9em 0;
     }
         
     #mobile-controls { display: flex; }
