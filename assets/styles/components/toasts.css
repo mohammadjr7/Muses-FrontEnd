@@ -12,6 +12,7 @@
     transition-timing-function: var(--transition-timing-function);
 }
 .toast > .btn {
+    margin: auto 1em;
     transition-property: all;
     transition-duration: 250ms;
     transition-timing-function: var(--transition-timing-function);
