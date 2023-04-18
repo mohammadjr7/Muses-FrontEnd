@@ -54,14 +54,14 @@
                 <form action="result.html" class="flexbox" id="search-form">
                     <div class="textboxes flexbox w-100">
                         <!-- Artist Section -->
-                        <div class="flex"><input oninput="checkArtistInput()" autofocus accesskey="/" type="text" name="artist" id="artist" placeholder="Artist" class="textbox w-100"></div>
+                        <div class="flex"><input oninput="checkArtistInput()" autofocus accesskey="/" type="text" name="artist" id="artist" placeholder="Artist Name" class="textbox w-100"></div>
                         <div class="container hidden" id="artist-errorbox">
                             <p class="error-message textbox-error-message">Error Message</p>
                             <div class="empty m-1"></div>
                         </div>
                         
                         <!-- Song Section -->
-                        <div class="flex"><input oninput="checkSongInput()" type="text" name="song" id="song" placeholder="Song" class="textbox w-100 go-top-half"></div>
+                        <div class="flex"><input oninput="checkSongInput()" type="text" name="song" id="song" placeholder="Song Name" class="textbox w-100 go-top-half"></div>
                         <div class="container hidden" id="song-errorbox">
                             <p class="error-message textbox-error-message go-top-half">Error Message</p>
                             <div class="empty m-1"></div>
@@ -70,7 +70,7 @@
                     
                         <!-- Search Button Section -->
                         <div class="buttons flexbox w-100">
-                            <div class="flex"><input onmousedown="searchSubmit();showToast('Fields cannot be empty.', 'error')" onclick="checkSongInput();checkArtistInput();" type="button" value="Search" class="btn btn-primary w-100" id="btn-search"></div>
+                            <div class="flex"><input onmousedown="searchSubmit();showToast('Fields cannot be empty.', 'error')" onclick="checkSongInput();checkArtistInput();" type="button" value="Search for Music" class="btn btn-primary w-100" id="btn-search"></div>
                         </div>
                 </form>
             </div>
